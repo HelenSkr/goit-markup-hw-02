@@ -23,14 +23,6 @@ body {
   margin: 0;
   padding: 0;
 }
-/*классовый контейнер с точечкой*/
-.conteiner {
-  background: var(--conteiner-background);
-  width: 1600px;
-  margin: 0 auto;
-  margin-left: auto;
-  margin-right: auto;
-}
 .logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -40,9 +32,6 @@ body {
 }
 .logo-part {
   color: var(--accent-color);
-}
-.logo-part-white {
-  color: var(--white-text);
 }
 .link {
   color: inherit;
@@ -59,8 +48,11 @@ body {
   text-decoration: none;
   color: var(--accent-color);
 }
+.navlist .current-link {
+  color: var(--accent-color);
+}
 .contacts .link {
-  font-style: Medium;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
   color: var(--text-color-light-grey);
@@ -84,6 +76,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   color: var(--white-text);
+  text-transform: uppercase;
   background-color: var(--background-color-dark-blue);
   font-weight: 900;
   font-size: 44px;
@@ -110,6 +103,7 @@ body {
 .button-main:focus {
   color: var(--accent-color);
   background-color: var(--conteiner-background);
+  cursor: pointer;
 }
 .button {
   background-color: var(--background-color);
@@ -131,7 +125,21 @@ body {
   color: var(--white-text);
   cursor: pointer;
 }
-
+.current-button {
+  background-color: var(--accent-color);
+  box-shadow: 0px, 4px, rgba(0, 0, 0, 0.15);
+  color: var(--white-text);
+  cursor: pointer;
+  border-radius: 4px;
+  border: 4px var(--background-color-lignt-blue);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.63;
+  font-weight: 500;
+}
 .advantages {
   font-weight: 700;
   font-size: 14px;
@@ -171,6 +179,7 @@ body {
 }
 .footer {
   background-color: var(--background-color-dark-blue);
+  color: var(--white-text);
 }
 
 /*Скрытый заголовок*/
