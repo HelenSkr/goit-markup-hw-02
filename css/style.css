@@ -3,7 +3,6 @@
   --main-text-color: #212121;
   --text-color-dark-grey: #212121;
   --text-color-light-grey: #757575;
-  --background-color: #e5e5e5;
   --background-color-lignt-blue: #f5f4fa;
   --background-color-dark-blue: #2f303a;
   --conteiner-background: #ffffff;
@@ -14,7 +13,6 @@
 
 body {
   color: var(--main-text-color);
-  background-color: var(--background-color);
   font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
 }
 /*универсальный селектор*/
